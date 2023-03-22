@@ -9,4 +9,4 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, proces
 })
 
 
-module.export = sequelize
+module.exports = sequelize
